@@ -1,0 +1,29 @@
+{
+    "name": "culture_chti",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bqsstien/Culture_chti.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bqsstien/Culture_chti/issues"
+    },
+    "homepage": "https://github.com/bqsstien/Culture_chti#readme",
+    "devDependencies": {
+        "sass": "^1.57.1",
+        "vite": "^4.0.4"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.3"
+    }
+}
