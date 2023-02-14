@@ -1,0 +1,24 @@
+@use "../utils/_utils" as utils
+@use "../utils/_typos"
+
+.carousel-inner
+    height: 25vh
+    background-color: utils.$myGray
+
+.carousel-item
+    height: 100%
+
+.carousel-image
+    height: 100%
+
+.carousel-caption
+    height: 20%
+    padding: 5px 15px
+    margin: auto
+    background-color: #fff
+    border: solid utils.$myYellow 1px
+    border-radius: 20px
+    opacity: 0.8
+
+.title-5
+    @extend %title-5
