@@ -1,0 +1,17 @@
+@use '../utils/_utils' as utils
+
+.modal-title
+    @extend %title-5
+    font-size: 2rem
+    text-decoration: underline
+    text-decoration-color: utils.$myYellow
+
+.modal-body
+    @extend %paragraph
+    & h6
+        @extend %title-6
+        margin: 25px
+    & li
+        margin: 10px
+    & p
+        font-weight: bold
