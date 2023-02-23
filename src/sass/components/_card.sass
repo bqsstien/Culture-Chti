@@ -1,10 +1,17 @@
 @use '../utils/_utils' as utils
 
+.card
+    height: 800px
+    width: 400px
+
 .card-title
     @extend %title-5
     font-size: 1.2rem
     text-decoration: underline
     text-decoration-color: utils.$myYellow
+
+.card img
+    height: 400px
 
 .card-text
     @extend %paragraph

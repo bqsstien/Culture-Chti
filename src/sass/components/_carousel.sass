@@ -13,8 +13,22 @@
 
 .carousel-caption
     height: 2rem
+    width: 40%
+    margin: auto
     background-color: #fff
     border: solid utils.$myYellow 1px
     border-radius: 20px
     opacity: 0.8
 
+//RESPONSIVE
+@media screen and (min-width: 768px)
+    .carousel-inner
+        height: 50vh
+    .carousel-caption
+        width: 30%
+
+@media screen and (min-width: 1200px)
+    .carousel-inner
+        height: 87vh
+    .carousel-caption
+        width: 20%
