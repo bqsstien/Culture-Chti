@@ -12,6 +12,9 @@
         "url": "git+https://github.com/bqsstien/Culture_chti.git"
     },
     "keywords": [],
+    "browserslist": [
+        "last 4 versions"
+    ],
     "author": "",
     "license": "ISC",
     "bugs": {
@@ -19,8 +22,11 @@
     },
     "homepage": "https://github.com/bqsstien/Culture_chti#readme",
     "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.21",
         "sass": "^1.57.1",
-        "vite": "^4.0.4"
+        "vite": "^4.0.4",
+        "vite-plugin-purgecss": "^0.2.12"
     },
     "dependencies": {
         "@popperjs/core": "^2.11.6",
